@@ -29,7 +29,7 @@
 * 本レポジトリの利用により生じた損失及び損害等について、国土交通省はいかなる責任も負わないものとします。
 
 ## 参考資料
-* 3D都市モデルとBIMを活用したモビリティ自律運行システム技術検証レポート: https://www.mlit.go.jp/plateau/libraries/technical-reports/
+* 3D都市モデルとBIMを活用したモビリティ自律運行システム技術検証レポート: https://www.mlit.go.jp/plateau/file/libraries/doc/plateau_tech_doc_0046_1_ver01.pdf
 * PLATEAU Webサイト Use caseページ「3D都市モデルとBIMを活用したモビリティ自律運行システム」: https://www.mlit.go.jp/plateau/use-case/uc22-024/
 * 利用しているライブラリなどへのリンク
   * [pcl_ros](http://wiki.ros.org/pcl_ros) : point cloud libraryの基本機能を有したRosパッケージ
