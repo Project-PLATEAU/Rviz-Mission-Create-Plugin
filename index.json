@@ -1,0 +1,47 @@
+{
+  "index.html": {
+    "href": "index.html",
+    "title": "Rviz-Mission-Create-Plugin | PLATEAU Rviz-Mission-Create-Plugin",
+    "keywords": "Rviz-Mission-Create-Plugin 「Rviz-Mission-Create-Plugin」はROSの標準ビューワソフトであるRviz上でロボットに移動指示・方向転換指示などを与えるために必要な機能を提供するプラグインとそれをRviz上で表示するための設定ファイルのパッケージです。"
+  },
+  "manual/1_start.html": {
+    "href": "manual/1_start.html",
+    "title": "Rviz-Mission-Create-Plugin起動方法 | PLATEAU Rviz-Mission-Create-Plugin",
+    "keywords": "Rviz-Mission-Create-Plugin起動方法 以下コマンドによりRvizを立ち上げます。このコマンド中ではpluginを実行するために必要なconfigファイルを読み込む操作が自動的に行われます。 roslaunch waypoint_navigation_plugin create_way_points.launch Rvizが正常に起動すると以下のような画面が現れます。 また、明示的にconfigファイルを読み込ませる方法でRvizを起動する方法は、以下のコマンドを別ターミナルで順番に実行します。 roscore rosrun tf static_transform_publisher 0 0 0 0 0 0 base_point map 20 rviz -d autonomous.rviz"
+  },
+  "manual/2_basic.html": {
+    "href": "manual/2_basic.html",
+    "title": "ウェイポイント（目標位置）基本操作 | PLATEAU Rviz-Mission-Create-Plugin",
+    "keywords": "ウェイポイント（目標位置）基本操作 ウェイポイントを配置するためには、まずRviz のツールバー上の「Waypoint Nav」ボタンを押します。 「Waypoint Nav」ボタンを押したのちマウスをグリッド上に動かすと、ピンが見えるようになります。ピンが見えている状態で左クリックするとウェイポイントが画面上に配置されます。 ウェイポイントが配置された様子 同様の操作で複数のウェイポイントを配置することができます。"
+  },
+  "manual/3_move_direction.html": {
+    "href": "manual/3_move_direction.html",
+    "title": "ウェイポイント位置・向き操作 | PLATEAU Rviz-Mission-Create-Plugin",
+    "keywords": "ウェイポイント位置・向き操作 各ウェイポイントが持つ青いリングをクリックしながらマウスを動かすことでウェイポイントの位置・向きを変更することができます。赤字軸が前方方向、緑軸が左方向です。"
+  },
+  "manual/4_change_z.html": {
+    "href": "manual/4_change_z.html",
+    "title": "ウェイポイント高さ操作 | PLATEAU Rviz-Mission-Create-Plugin",
+    "keywords": "ウェイポイント高さ操作 Rviz のツールバー上の「Interact」ボタンを押したのち、画面操作を行うことでカメラ視点の切り替えを行うことができます。 ウェイポイントが持つ上下に伸びた青い矢印をクリックしながらマウスを動かすことで、ウェイポイントの高さを変更することができます。 このような機能を使うことで、高さや向きが異なる複数のウェイポイントを作成することが可能となります。"
+  },
+  "manual/5_change_action.html": {
+    "href": "manual/5_change_action.html",
+    "title": "アクションタイプ切り替え | PLATEAU Rviz-Mission-Create-Plugin",
+    "keywords": "アクションタイプ切り替え アクションを与えたいウェイポイントを右クリックするとウィンドウがポップアップするので、与えたいアクションの種類を選択することでアクションを変更できます。 デフォルトのアクションは, ある点にたどり着いたらそのまま通過する『GoToThePoint』アクションになります。 定義されている行動タイプは以下三つとなっています。 GoToThePoint TurnAtThePoint TakeDataAtThePoint"
+  },
+  "manual/example.html": {
+    "href": "manual/example.html",
+    "title": "サンプルデータを使ったテスト手順 | PLATEAU Rviz-Mission-Create-Plugin",
+    "keywords": "サンプルデータを使ったテスト手順 Rviz-Mission-Create-Pluginを用いて作成したルートは、ロボットが自律移動時に使用する移動ルートとして使用することを想定しています。 以下ではドローンにルートを与えて自律移動をさせた際の実際のログデータを再生し、Rviz Configファイルを読み込んで必要項目をビジュアライズする手順を解説します。 手順 インストール方法に従い環境をセットアップした後、以下コマンドをそれぞれ別 terminal で実行してください。 roscore autonomous.rvizがRviz用の設定ファイルです。読み込むことで必要項目の設定が完了した状態でRvizが起動します。 rviz -d autonomous.rviz サンプルデータはこちらからダウンロードしてください。link サンプルデータを再生します。 rosbag play record_data.bag rviz上でドローンが自律飛行時に認識している周囲の情報を表示することができます。"
+  },
+  "manual/Install.html": {
+    "href": "manual/Install.html",
+    "title": "環境構築・インストール | PLATEAU Rviz-Mission-Create-Plugin",
+    "keywords": "環境構築・インストール 必要動作環境: Ubuntu18 依存ライブラリインストール方法 sudo apt install curl git ROS： ROS インストールチュートリアルに従って、インストールしてください。 sudo apt install -y ros-melodic-pcl-ros ros-melodic-octomap ros-melodic-octomap-server ros-melodic-octomap-rviz-plugins ros-melodic-jsk-visualization ROS ワークスペース作成 mkdir -p ~/catkin_ws/src cd ~/catkin_ws/src catkin_init_workspace git clone git@github.com:sensyn-robotics/PLATEAU-UC22-024-Rviz-Mission-Create-Plugin.git # 環境変数の設定 echo \"source ${HOME}/catkin_ws/devel/setup.bash\" >> ~/.bashrc source ~/.bashrc ビルド cd ~/catkin_ws/ catkin_make"
+  },
+  "manual/Usage.html": {
+    "href": "manual/Usage.html",
+    "title": "Rviz-Mission-Create-Plugin使い方 | PLATEAU Rviz-Mission-Create-Plugin",
+    "keywords": "Rviz-Mission-Create-Plugin使い方 Rviz-Mission-Create-Plugin 以下コマンドによりRvizを立ち上げます。 roslaunch waypoint_navigation_plugin create_way_points.launch Rvizが正常に起動すると以下のような画面が現れます。 ウェイポイント（目標位置）の基本操作 ウェイポイントを配置するためには、まずRviz のツールバー上の「Waypoint Nav」ボタンを押します。 「Waypoint Nav」ボタンを押したのちマウスをグリッド上に動かすと、ピンが見えるようになります。ピンが見えている状態で左クリックするとウェイポイントが画面上に配置されます。 ウェイポイントが配置された様子 同様の操作で複数のウェイポイントを配置することができます。 ウェイポイント位置・向きの操作 各ウェイポイントが持つ青いリングをクリックしながらマウスを動かすことでウェイポイントの位置・向きを変更することができます。赤字軸が前方方向、緑軸が左方向です。 ウェイポイント高さの操作 Rviz のツールバー上の「Interact」ボタンを押したのち、画面操作を行うことでカメラ視点の切り替えを行うことができます。 ウェイポイントが持つ上下に伸びた青い矢印をクリックしながらマウスを動かすことで、ウェイポイントの高さを変更することができます。 このような機能を使うことで、高さや向きが異なる複数のウェイポイントを作成することが可能となります。 アクションタイプを切り替える アクションを与えたいウェイポイントを右クリックするとウィンドウがポップアップするので、与えたいアクションの種類を選択することでアクションを変更できます。 デフォルトのアクションは, ある点にたどり着いたらそのまま通過する『GoToThePoint』アクションになります。 定義されている行動タイプは以下三つとなっています。 GoToThePoint TurnAtThePoint TakeDataAtThePoint"
+  }
+}

@@ -1,0 +1,151 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+
+  <head>
+    <meta charset="utf-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+      <title>Rviz-Mission-Create-Plugin使い方 | PLATEAU Rviz-Mission-Create-Plugin </title>
+      <meta name="viewport" content="width=device-width">
+      <meta name="title" content="Rviz-Mission-Create-Plugin使い方 | PLATEAU Rviz-Mission-Create-Plugin ">
+    
+      <link rel="shortcut icon" href="../favicon.ico">
+      <link rel="stylesheet" href="../styles/docfx.vendor.min.css">
+      <link rel="stylesheet" href="../styles/docfx.css">
+      <link rel="stylesheet" href="../styles/main.css">
+      <meta property="docfx:navrel" content="../toc.html">
+      <meta property="docfx:tocrel" content="toc.html">
+    
+    <meta property="docfx:rel" content="../">
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div class="container body-content">
+
+        <div id="search-results">
+          <div class="search-list">Search Results for <span></span></div>
+          <div class="sr-items">
+            <p><i class="glyphicon glyphicon-refresh index-loading"></i></p>
+          </div>
+          <ul id="pagination" data-first="First" data-prev="Previous" data-next="Next" data-last="Last"></ul>
+        </div>
+      </div>
+      <div role="main" class="container body-content hide-when-search">
+
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="">
+<h1 id="rviz-mission-create-plugin使い方">Rviz-Mission-Create-Plugin使い方</h1>
+
+<h3 id="rviz-mission-create-plugin">Rviz-Mission-Create-Plugin</h3>
+<p>以下コマンドによりRvizを立ち上げます。</p>
+<pre><code>roslaunch waypoint_navigation_plugin create_way_points.launch
+</code></pre>
+<p>Rvizが正常に起動すると以下のような画面が現れます。</p>
+<img src="../resources/Usage/default.jpg" width="80%">
+<h3 id="ウェイポイント目標位置の基本操作">ウェイポイント（目標位置）の基本操作</h3>
+<ol>
+<li>ウェイポイントを配置するためには、まずRviz のツールバー上の「Waypoint Nav」ボタンを押します。</li>
+<li>「Waypoint Nav」ボタンを押したのちマウスをグリッド上に動かすと、ピンが見えるようになります。ピンが見えている状態で左クリックするとウェイポイントが画面上に配置されます。
+<img src="../resources/Usage/default_with_pin.jpg" width="80%"></li>
+</ol>
+<p>ウェイポイントが配置された様子</p>
+<img src="../resources/Usage/1_point.jpg" width="80%">
+<p>同様の操作で複数のウェイポイントを配置することができます。
+<img src="../resources/Usage/2point.jpg" width="80%"></p>
+<h3 id="ウェイポイント位置向きの操作">ウェイポイント位置・向きの操作</h3>
+<p>各ウェイポイントが持つ青いリングをクリックしながらマウスを動かすことでウェイポイントの位置・向きを変更することができます。赤字軸が前方方向、緑軸が左方向です。
+<img src="../resources/Usage/2point_rot.jpg" width="80%"></p>
+<h3 id="ウェイポイント高さの操作">ウェイポイント高さの操作</h3>
+<p>Rviz のツールバー上の「Interact」ボタンを押したのち、画面操作を行うことでカメラ視点の切り替えを行うことができます。
+<img src="../resources/Usage/2point_z0.jpg" width="80%"></p>
+<p>ウェイポイントが持つ上下に伸びた青い矢印をクリックしながらマウスを動かすことで、ウェイポイントの高さを変更することができます。</p>
+<img src="../resources/Usage/2point_change_z.jpg" width="80%">
+<p>このような機能を使うことで、高さや向きが異なる複数のウェイポイントを作成することが可能となります。</p>
+<img src="../resources/Usage/final_result.jpg" width="80%">
+<h3 id="アクションタイプを切り替える">アクションタイプを切り替える</h3>
+<p>アクションを与えたいウェイポイントを右クリックするとウィンドウがポップアップするので、与えたいアクションの種類を選択することでアクションを変更できます。<br>
+デフォルトのアクションは, ある点にたどり着いたらそのまま通過する『GoToThePoint』アクションになります。</p>
+<img src="../resources/Usage/mission_type.jpg" width="80%">
+<p>定義されている行動タイプは以下三つとなっています。</p>
+<ul>
+<li>GoToThePoint</li>
+<li>TurnAtThePoint</li>
+<li>TakeDataAtThePoint</li>
+</ul>
+<img src="../resources/Usage/turn.jpg" width="40%">
+<img src="../resources/Usage/take_data.jpg" width="40%">
+</article>
+          </div>
+
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+                <h5>In This Article</h5>
+                <div></div>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+      PLATEAU Rviz-Mission-Create-Plugin
+      
+          </div>
+        </div>
+      </footer>
+    </div>
+
+    <script type="text/javascript" src="../styles/docfx.vendor.min.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>

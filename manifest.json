@@ -1,0 +1,262 @@
+{
+  "homepages": [],
+  "source_base_path": "/home/runner/work/PLATEAU-UC22-024-Rviz-Mission-Create-Plugin/PLATEAU-UC22-024-Rviz-Mission-Create-Plugin/Documentation",
+  "xrefmap": "xrefmap.yml",
+  "files": [
+    {
+      "type": "Resource",
+      "output": {
+        "resource": {
+          "relative_path": "index.json"
+        }
+      }
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "index.md",
+      "output": {
+        ".html": {
+          "relative_path": "index.html",
+          "hash": "VNMw4lTHghA52rQL8++yU7ZHaclktDqtzjC2+gbgxpU="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "manual/1_start.md",
+      "output": {
+        ".html": {
+          "relative_path": "manual/1_start.html",
+          "hash": "WaaTHuTCgrDeFBnoYiBfKToWSpjF+NjKNWuujZPT550="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "manual/2_basic.md",
+      "output": {
+        ".html": {
+          "relative_path": "manual/2_basic.html",
+          "hash": "w8O1yW1WzW8NkE6/2gEk869IQ8KqYNRA0VfpI5VfUO0="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "manual/3_move_direction.md",
+      "output": {
+        ".html": {
+          "relative_path": "manual/3_move_direction.html",
+          "hash": "2yiSOhkBa9DzLpjnZGgfdsgB8tT3akSR8iTgHpovDAk="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "manual/4_change_z.md",
+      "output": {
+        ".html": {
+          "relative_path": "manual/4_change_z.html",
+          "hash": "E6zQH+Mk+xjnrI5XZm/34KNUVynt0xMnpcnHgwgt9GM="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "manual/5_change_action.md",
+      "output": {
+        ".html": {
+          "relative_path": "manual/5_change_action.html",
+          "hash": "5JlleMNlEMFf9UjLIQw9ULfBHqXPpaGlMHH2iMGbHTg="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "manual/Install.md",
+      "output": {
+        ".html": {
+          "relative_path": "manual/Install.html",
+          "hash": "1ancdCEGtg1F+nyYA6yFxQIFYku9S9mnz2gpToqe3UM="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "manual/Usage.md",
+      "output": {
+        ".html": {
+          "relative_path": "manual/Usage.html",
+          "hash": "NaiMFtaByKztkLuO6jps6uh0E/ODfcepxxvVYQFEHX0="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "manual/example.md",
+      "output": {
+        ".html": {
+          "relative_path": "manual/example.html",
+          "hash": "s6g8j/9jMPcjtUokLPm4AWqaDyi6bywCxnYV0LImrLM="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "manual/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "manual/toc.html",
+          "hash": "7xJvDZ8sA77NTSw32iIsFcI9X+XmrQhKg5905GlQmpo="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "resources/Usage/1_point.jpg",
+      "output": {
+        "resource": {
+          "relative_path": "resources/Usage/1_point.jpg"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "resources/Usage/2point.jpg",
+      "output": {
+        "resource": {
+          "relative_path": "resources/Usage/2point.jpg"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "resources/Usage/2point_change_z.jpg",
+      "output": {
+        "resource": {
+          "relative_path": "resources/Usage/2point_change_z.jpg"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "resources/Usage/2point_rot.jpg",
+      "output": {
+        "resource": {
+          "relative_path": "resources/Usage/2point_rot.jpg"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "resources/Usage/2point_z0.jpg",
+      "output": {
+        "resource": {
+          "relative_path": "resources/Usage/2point_z0.jpg"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "resources/Usage/default.jpg",
+      "output": {
+        "resource": {
+          "relative_path": "resources/Usage/default.jpg"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "resources/Usage/default_with_pin.jpg",
+      "output": {
+        "resource": {
+          "relative_path": "resources/Usage/default_with_pin.jpg"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "resources/Usage/final_result.jpg",
+      "output": {
+        "resource": {
+          "relative_path": "resources/Usage/final_result.jpg"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "resources/Usage/mission_type.jpg",
+      "output": {
+        "resource": {
+          "relative_path": "resources/Usage/mission_type.jpg"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "resources/Usage/rviz.jpg",
+      "output": {
+        "resource": {
+          "relative_path": "resources/Usage/rviz.jpg"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "resources/Usage/take_data.jpg",
+      "output": {
+        "resource": {
+          "relative_path": "resources/Usage/take_data.jpg"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "resources/Usage/turn.jpg",
+      "output": {
+        "resource": {
+          "relative_path": "resources/Usage/turn.jpg"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "toc.html",
+          "hash": "torbzyZYAO9c5e0wKnkgsb/bXMuHNFHzJjanHG7O0nM="
+        }
+      },
+      "version": ""
+    }
+  ],
+  "version_info": {},
+  "groups": [
+    {
+      "xrefmap": "xrefmap.yml"
+    }
+  ]
+}
