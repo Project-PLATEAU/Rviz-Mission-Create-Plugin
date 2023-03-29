@@ -1,0 +1,2 @@
+# Rviz-Mission-Create-Plugin
+* 「Rviz-Mission-Create-Plugin」はROSの標準ビューワソフトであるRviz上でロボットに移動指示・方向転換指示などを与えるために必要な機能を提供するプラグインとそれをRviz上で表示するための設定ファイルのパッケージです。

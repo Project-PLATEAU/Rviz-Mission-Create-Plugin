@@ -1,0 +1,43 @@
+{
+    "metadata": [
+    ],
+    "build": {
+        "globalMetadata": {
+            "_appTitle": "PLATEAU Rviz-Mission-Create-Plugin",
+            "_appFooter": "PLATEAU Rviz-Mission-Create-Plugin",
+            "_disableContribution": true,
+            "_enableSearch": true
+        },
+        "content": [
+            {
+                "files": [
+                    "toc.yml",
+                    "index.md"
+                ]
+            },
+            {
+                "src": "manual",
+                "files": [
+                    "toc.yml",
+                    "*.md"
+                ],
+                "dest": "manual"
+            }
+        ],
+        "resource": [
+            {
+                "files": [
+                    "resources/**/*"
+                ]
+            }
+        ],
+
+        "xref": [
+            "https://normanderwan.github.io/UnityXrefMaps/xrefmap.yml"
+        ],
+        "xrefService": [
+            "https://xref.docs.microsoft.com/query?uid={uid}"
+        ],
+        "dest": "../.docs/_site"
+    }
+}
